@@ -50,7 +50,7 @@ const App = () => {
               {[...Array(30)].map((_, i) => (
                 <motion.img
                   key={i}
-                  src={`${process.env.PUBLIC_URL}/images/image${i + 1}.jpg`}
+                  src={`https://pro7prabhakar.github.io/its-her-birthday/images/image${i + 1}.jpg`}
 
                   alt={`Image ${i + 1}`}
                   className="image"
@@ -67,7 +67,7 @@ const App = () => {
                   className="video"
                   whileHover={{ scale: 1.05 }}
                 >
-                        <source src={`${process.env.PUBLIC_URL}/videos/video${video}.mp4`} type="video/mp4"/>
+                        <source src={`https://pro7prabhakar.github.io/its-her-birthday/videos/video${video}.mp4`} type="video/mp4"/>
                   Your browser does not support the video tag.
                 </motion.video>
               ))}
