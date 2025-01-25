@@ -1,0 +1,132 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1a237e, #000, #4a148c);
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .content-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #f50057, #ffeb3b);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    margin-bottom: 30px;
+  }
+  
+  .name-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .submit-button {
+    background: linear-gradient(to right, #f50057, #ffeb3b);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+  }
+  
+  .submit-button:hover {
+    opacity: 0.8;
+  }
+  
+  .special-content .greeting {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .video-section .video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .thank-you-content {
+    margin-top: 20px;
+  }
+  
+  .thank-you-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .current-time {
+    font-size: 1.2rem;
+  }
+  
+  .background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  
+  .falling-circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 64, 129, 0.8);
+    border-radius: 50%;
+    animation: fall infinite linear;
+  }
+  
+  @keyframes fall {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(100vh);
+    }
+  }
