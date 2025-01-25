@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/its-her-birthday/static/css/main.6ce5e115.css",
-    "main.js": "/its-her-birthday/static/js/main.36a05ee9.js",
+    "main.js": "/its-her-birthday/static/js/main.171db55a.js",
     "index.html": "/its-her-birthday/index.html",
     "main.6ce5e115.css.map": "/its-her-birthday/static/css/main.6ce5e115.css.map",
-    "main.36a05ee9.js.map": "/its-her-birthday/static/js/main.36a05ee9.js.map"
+    "main.171db55a.js.map": "/its-her-birthday/static/js/main.171db55a.js.map"
   },
   "entrypoints": [
     "static/css/main.6ce5e115.css",
-    "static/js/main.36a05ee9.js"
+    "static/js/main.171db55a.js"
   ]
 }
